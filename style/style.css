@@ -58,12 +58,14 @@ body{
 /* nav-menu */
 .nav-menu{
     margin: 10px 0px 10px 70px;
+    word-spacing: 5px;
 }
 
 .nav-menu a{
     color: #222f3e;
     font-size: 18px;
     text-transform: uppercase;
+    
 }
 
 .nav-menu a:hover{
@@ -94,6 +96,7 @@ body{
     font-weight: 300;
     text-transform: uppercase;
     font-size: 35px;
+    text-align: center;
 }
 
 .header-image p{
@@ -144,6 +147,7 @@ body{
     margin: auto;
 }
 
+
 .ways h3{
     text-transform: uppercase;
     margin-top: 10px;
@@ -162,12 +166,33 @@ body{
 }
 
 @media (max-width: 800px) {
+    .page-header{
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    .nav-menu{
+        word-spacing: 10px;
+        margin: 10px 20px;
+        text-align: center;
+    }
+    .journey-ways{
+        padding: 30px 20px;
+    }
+    
     .travel-ways{
         flex-direction: column;
     }
     .ways{
         width: auto;
         margin: 15px;
+    }
+    .header-image p{
+        margin: 20px 40px;
+
+    }
+    .header-image h2{
+        padding: 20px 25px 0px;
     }
     
 }
