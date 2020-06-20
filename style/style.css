@@ -105,8 +105,6 @@ body{
 }
 
 
-
-
 /*=============================
         Journey ways
 ==============================*/
@@ -137,6 +135,7 @@ body{
 
 .travel-ways{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 50px;
     justify-content: space-between;
     text-align: center;
@@ -165,6 +164,54 @@ body{
     filter:invert();
 }
 
+
+/*=============================
+        City gallery 
+==============================*/
+
+.cities{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 50px;
+}
+
+.city-img{
+    width: 29%;
+    margin-bottom: 35px;
+    background-color: #222f3e;
+    color: white;
+}
+.city-img img{
+    width: 100%;
+}
+
+.city-img h3{
+    padding: 15px;
+    color: #b2e6d4;
+}
+
+.city-img p{
+    padding: 0px 15px 15px 15px;
+}
+
+/*=============================
+            Footer
+==============================*/
+footer{
+    background-color: #1dd1a1;
+    color: #222f3e;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 70px;
+}
+
+/*=============================
+        Mobile Screen
+==============================*/
+
 @media (max-width: 800px) {
     .page-header{
         padding-left: 0px;
@@ -183,9 +230,6 @@ body{
         padding: 30px 20px;
     }
     
-    .travel-ways{
-        flex-direction: column;
-    }
     .ways{
         width: auto;
         margin: 15px;
@@ -197,5 +241,18 @@ body{
     .header-image h2{
         padding: 20px 30px 0px;
     }
+    .city-img{
+        width: 39%;
+    }
+    footer{
+        padding-left: 0px;
+        text-align: center;
+    }
     
+}
+
+@media (max-width: 600px){
+    .city-img{
+        width: 89%;
+    }
 }
