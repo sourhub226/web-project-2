@@ -176,6 +176,9 @@ body{
         margin: 10px 20px;
         text-align: center;
     }
+    .nav-menu li{
+        padding: 15px;
+    }
     .journey-ways{
         padding: 30px 20px;
     }
