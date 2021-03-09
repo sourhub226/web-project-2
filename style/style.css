@@ -57,7 +57,7 @@ body{
 }
 /* nav-menu */
 .nav-menu{
-    margin: 10px 0px 10px 70px;
+    margin: 10px 0 10px 70px;
     word-spacing: 5px;
 }
 
@@ -74,7 +74,7 @@ body{
 }
 
 .nav-menu li{
-    padding: 15px 15px 15px 0px;
+    padding: 15px 15px 15px 0;
 }
 
 /* Header image */
@@ -166,14 +166,14 @@ body{
 
 
 /*=============================
-        City gallery 
+        City gallery
 ==============================*/
 
 .cities{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 0px 50px;
+    padding: 0 50px;
 }
 
 .city-img{
@@ -192,7 +192,7 @@ body{
 }
 
 .city-img p{
-    padding: 0px 15px 15px 15px;
+    padding: 0 15px 15px;
 }
 
 /*=============================
@@ -214,7 +214,7 @@ footer{
 
 @media (max-width: 800px) {
     .page-header{
-        padding-left: 0px;
+        padding-left: 0;
         text-align: center;
     }
     
@@ -239,13 +239,13 @@ footer{
 
     }
     .header-image h2{
-        padding: 20px 30px 0px;
+        padding: 20px 30px 0;
     }
     .city-img{
         width: 39%;
     }
     footer{
-        padding-left: 0px;
+        padding-left: 0;
         text-align: center;
     }
     
