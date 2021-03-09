@@ -21,6 +21,7 @@ Colors:
 
 body{
     font-family: 'Ubuntu', sans-serif;
+    background-color:#fbfbfb;
 }
 
 li{
@@ -42,10 +43,6 @@ a{
 /*=============================
             Header
 ==============================*/
-body{
-    background-color:#fbfbfb;
-}
-
 .page-header{
     background-color: #222f3e;
     color: #fff;
@@ -154,7 +151,6 @@ body{
 }
 
 .ways p{
-    margin-top: 10px;
     color: #222f3e;
     margin: 10px 20px;
     
